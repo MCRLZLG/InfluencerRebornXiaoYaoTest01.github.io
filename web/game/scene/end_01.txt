@@ -1,0 +1,22 @@
+bgm:happiness.mp3 -volume=1000;
+setTextbox:hide -next;
+changeFigure: -next;
+changeBg:bg_02.png -transform={"bloom":0.4,"bloomBlur":50,"bloomThreshold":0,"bevel":0,"bevelThickness":0,"bevelRotation":0,"oldFilm":0,"dotFilm":0,"godrayFilm":0};
+setTextbox:on -next;
+小瑶:虽然姐姐们很好|但其实也没有那么熟;
+小瑶:那边的习俗也不太清楚|而且路程和婚礼当天会很累的样子... -when=week>=2
+小瑶:还是不去了~|继续吃东西吧~;
+setTextbox:hide -next;
+changeFigure:stand_01.png -transform={"bloom":0.5,"bloomBlur":15,"oldFilm":0,"reflectionFilm":0,"godrayFilm":0};
+intro:没去当伴娘|没有“伴娘事件”争议|跟新娘朋友的关系平淡地维持了一段时间|错过了一波流量 -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=revealAnimation -delayTime=1500 -hold -userForward;
+intro:“我什么时候才能成为大博主呢？...” -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForward;
+intro:END 01|稳稳的幸福 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=pixelateEffect -delayTime=2000 -hold -小瑶one day-=true;
+changeBg:none -next;
+changeFigure:none -next;
+setTextbox:hide -next;
+intro:故事线已完成|是否继续探索【其它结局】？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:【继续探索】:start.txt|【下次继续】:BackToTitle;
+label:BackToTitle;
+end;
+label:BckToTitleEnd;
+jumpLabel:BckToTitleEnd;

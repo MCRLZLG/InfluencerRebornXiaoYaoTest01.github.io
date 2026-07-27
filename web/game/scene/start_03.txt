@@ -1,0 +1,10 @@
+bgm:find.WAV;
+changeFigure: -right -next;
+changeFigure: -left -next;
+changeBg:bg_04.png -next;
+changeFigure:stand_03.png -next;
+setTextbox:on -next;
+小瑶:怎么办，要不要去呢？;
+choose:不去白不去啊:Branch_01.txt|其实也不太熟，不去了吧...:end_01.txt|再想想？:Branch_02.txt;
+label:end02; // 创建名为 end 的 label
+jumpLabel:end02;

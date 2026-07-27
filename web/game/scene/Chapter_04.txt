@@ -1,0 +1,85 @@
+changeFigure:none;
+intro:Chapter 04|报销？不情愿 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold=true;
+bgm:find.WAV -next;
+changeBg:bg_table005.png -next;
+新娘婆婆家:（早餐时间）
+changeFigure:stand_breakfast002.png;
+setTextbox:on -next;
+小瑶:不知不觉|在人家家里也住了四五天了;
+其实她结婚第二天就想走;
+但因为车票的事情，她一直拖|根本走不了;
+因为这事弄了几天|才弄好;
+她说是因为习俗，新娘不能发钱啥的|就给我一半说剩下的1号发;
+因为她一直拖|二等（高铁票）没有了就剩一等了；
+二等和一等中间差的我要自己贴;
+changeFigure:none -next;
+setTextbox:hide -next;
+changeBg:bg_downstair001.png;
+setTextbox:on -next;
+小瑶:吃完饭想去小卖部的|结果没开门;
+然后休息了一会就吃午饭了;
+setTextbox:hide -next;
+changeBg:bg_table006.png;
+setTextbox:on -next;
+还是挺丰盛的;
+changeFigure:stand_breakfast002.png;
+一会儿吃完饭|让家里的一个妹妹,带我去镇上买点东西;
+不管咋样在人家家住了四五天|肯定不能拍拍屁股就走了;
+该有的礼教还是要有的;
+新娘婆婆家:（慢慢吃完早餐了...）
+changeFigure:none -next;
+setTextbox:hide -next;
+playVideo:market01.mp4 -skipOff;
+;背景图片：市场
+changeBg:bg_market002.png;
+setTextbox:on  -next;
+（到市场了）:;
+setTextbox:hide -next;
+changeBg:bg_market003.png;
+setTextbox:on -next;
+感觉他们这的人很喜欢吃那种砂糖橘|还有那种带喜字的饼干;
+我就都买了一点;
+setTextbox:hide -next;
+;背景图片：超市买的东西01
+changeBg:bg_market004.png;
+setTextbox:on -next;
+又来超市买了点奶和鸡蛋啥的;
+逛的时候看到有那种大捅食用油;
+changeBg:bg_market005.png -next;
+感觉都是普通家庭|买油应该比这些奶更实用;
+但是他们家有小孩|就感觉还是买点喝的啥让孩子喝;
+setTextbox:hide -next;
+;背景音乐：悠扬下午，温情感动
+;背景图片：骑小电驴的下午
+changeBg:bike_001.png;
+setTextbox:on -next;
+买完东西回去啦~|广东的天气真的挺好的,骑小电驴好爽！; 
+setTextbox:hide -next;
+;背景图片：回到家东西放地上
+changeBg:bg_backhome001.png;
+setTextbox:on -next;
+（新娘婆婆家）:
+新娘婆婆:小瑶你是客人，不用这样的|还买这么多东西...
+小瑶:没事没事，谢谢阿姨这些天的照顾！
+setTextbox:hide -next;
+;背景图片：小瑶在外面吃东西
+;背景图片：螃蟹在锅里
+changeBg:bg_crab001.png;
+changeBg:bg_crab002.png;
+setTextbox:on -next;
+那个妹妹还教我吃螃蟹;
+;立绘：小瑶撕开螺蛳粉
+changeBg:bg_noodles001.png -next;
+刚刚想起来我从家还带了两包螺蛳粉|那个妹妹刚好也喜欢吃;
+setTextbox:hide -next;
+changeBg:bg_noodles002.png;
+;背景图片：煮螺蛳粉
+;背景图片：餐厅
+;立绘：剥了虾
+changeBg:bg_finalmeal001.png -next;
+setTextbox:on -next;
+桌上还有中午剩的点虾|给妹妹剥了;
+我们四个人吃，刚好炫完;
+setTextbox:hide -next;
+intro:虽然婚礼上不太开心|但她家人都很好|唉... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+changeScene:Chapter_05.txt;

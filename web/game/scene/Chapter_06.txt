@@ -1,0 +1,31 @@
+intro:Chapter 06|再见，再也不见 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500=true;
+bgm:sad.WAV -next;
+changeBg:bg_meet006.png -next;
+;背景图片：朋友出租屋里
+;立绘：小瑶收拾行李
+setTextbox:on -next;
+小瑶: 昨天我朋友说好的今天五点多送我的|结果也没来;
+一看v她快一点的时候给我发了消息|说今天不来了;
+真无语|办事一点也不靠谱...;
+setTextbox:hide -next;
+changeBg:bg_station005.png -next;
+setTextbox:on -next;
+人生地不熟的打车耽误了点时间...;
+到高铁站车已经发走了;
+260一张的票要作废了|想问问能不能退钱;
+changeBg:bg_station006.png;
+第一程作废了第二程退了|又扣三百多手续费...;
+只能重新再买一张了;
+changeFigure:stand_angry003.png;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:none;
+intro:半夜终于回到NewYork||我不知道为什么|这次的伴娘之旅会变成这样...|在训练营好好的姐姐|为什么把我叫来又这样对我...|算了，再也不见了... -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForward;
+intro:网友A：小瑶也太可怜了吧|网友B：这个新娘没钱就不要请人来啊|网友C：车费说好的也不报销，小瑶还是别跟她来往了||评论（999+）粉丝 （9999+） -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForward;
+intro:02 FAKE END|可怜小瑶 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=pixelateEffect -delayTime=2000 -hold -小瑶one day-=true;
+setTextbox:hide -next;
+changeBg:none -next;
+intro:故事线已完成|是否继续探索【其它结局】？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:【继续探索】:start_02.txt|【下次继续】:Title01;
+label:Title01;
+end;

@@ -1,0 +1,5 @@
+Game_name:InfluencerRebornXiaoYao;
+Game_key:809bd7204e3f7a;
+Title_img:title02.png;
+Title_bgm:s_Title.WAV;
+Textbox_theme:imss;

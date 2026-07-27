@@ -1,0 +1,98 @@
+changeFigure: -next;
+setTextbox:hide -next;
+bgm:none -next;
+intro:Branch 01|趋利避害 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForwarnext=true;
+bgm:elegant.WAV -next;
+;上个章节里小瑶说的新娘这不对那不对的;
+;去湛江的时候自己说没坐过高铁，硬要买高铁票;
+changeBg:bg_04.png;
+changeFigure:stand_call01.png -right -transform={"position":{"x":-305,"y":0}} -next;
+setTextbox:on -next;
+小瑶:姐，我没坐过高铁，你给我买高铁票呗？;
+changeFigure:stand_bride_call_L01.png -left -next;
+新娘:我电话里跟你说的就是报销火车票呀;
+小瑶:我大老远去参加你的婚礼|坐火车要30多个小时;
+坐高铁快些啊，不过分吧？;
+新娘:好吧...;
+（给小瑶买了单程车票）
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+setTextbox:hide -next;
+;到了湛江后，小瑶自己点外卖也要新娘报销;
+changeBg:bg_meet006.png;
+setTextbox:on -next;
+新娘租的房子:（到湛江之后几天，小瑶自己点外卖吃）;
+changeFigure:stand_BackHome002.png -right -transform={"position":{"x":-244},"scale":{"x":1.5,"y":1.5}} -next;
+小瑶:姐，我这两天吃饭的钱你也给我报一下呗？;
+changeFigure:stand_bride_L01.png -left -next;
+新娘:让你来家里吃你不吃？自己点的外卖也要我报销吗？;
+小瑶:不是你请我来的吗？|吃饭住宿这些不都应该你负责吗？;
+新娘:……
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+setTextbox:hide -next;
+;接亲的时候，跟新娘要钱买高铁票.
+;背景图片：新娘补妆图
+changeBg:bg_wedding001.png;
+setTextbox:on -next;
+:婚礼当天;
+changeFigure:stand_angry001.png -right -transform={"position":{"x":-226,"y":15}} -next;
+小瑶:姐，你婚礼结束我明天就回家了|你给我把回去的高铁票买了呗？;
+changeFigure:stand_wedding01.png -left -next;
+新娘:小瑶，我等着接亲呢|你现在跟我说这事是不是不合适啊？;
+小瑶:怎么不合适了，我专门来给你当伴娘|车票都不给我买吗？;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+伴娘团:没事没事，一会接亲的车要来了|晚点再来处理这个事吧;
+changeBg:TakePhoto_001.png -next;
+:（后来伴娘团拍照没带小瑶）;
+changeBg:bg_friend001.png -next;
+:（拿堵门红包，也没带小瑶）;
+setTextbox:hide -next;
+;自己起晚了没赶上火车，重新买票也要新娘报销
+changeBg:bg_meet006.png;
+setTextbox:on -next;
+:婚礼结束，提前从新娘婆婆家出来|到新娘租的房子这了;
+:（半夜一点，收到新消息）
+新娘:小瑶，你姐夫今晚喝多了|明天可能赶不了这么早送你了
+你明早自己看看怎么过去吧
+（转账500元）
+小瑶:（才500，够干啥的）|（不想送就不想送，还说得这么好听...）;
+算了，先睡了
+setTextbox:hide -next;
+changeBg: -next
+setTextbox:on -next;
+（睡着了）
+setTextbox:hide -next;
+changeBg:bg_meet006.png -next;
+setTextbox:on -next;
+:（第二天上午）
+小瑶:啊，起晚了...;
+setTextbox:hide -next;
+changeBg:bg_station005.png -next;
+setTextbox:on -next;
+:（紧赶慢赶，还是没赶上）|（要重新买票）
+setTextbox:hide -next;
+changeBg:bg_station006.png;
+changeBg:bg_train002.png -next;
+setTextbox:on -next;
+（终于上车了）
+playEffect:call01.WAV -next;
+（给新娘打电话）
+小瑶:姐，你昨天不是说好今天来送我去坐高铁吗？|咋没来啊？ -v2.WAV -volume=40;
+我都迟到了！;
+新娘:我昨晚给你发了消息和转账，让你自己过去的;
+小瑶:我昨晚睡得早，没看见你发的消息|这是你的问题吧？;
+新娘:(沉默...);
+小瑶:就这吧，你把票钱给我报了吧;
+setTextbox:hide -next;
+changeBg:none;
+intro:半夜终于回到NewYork||这一波我真的是亏大了|不过我做的视频发出来流量挺好|哼，还好我精明！ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForward;
+intro:新娘：早知道不请她来了...||评论（999+）粉丝 （9999+） -fontSize=small -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForward;
+intro:03 OPEN END|精明小瑶 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=pixelateEffect -delayTime=2000 -hold -小瑶one day-=true;
+setTextbox:hide -next;
+changeBg:none -next;
+intro:故事线已完成|是否继续探索【其它结局】？ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+choose:【继续探索】:start_03.txt|【下次继续】:EndLable01;
+label:EndLable01;
+end;

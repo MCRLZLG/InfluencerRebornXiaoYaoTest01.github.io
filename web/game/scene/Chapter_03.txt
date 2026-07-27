@@ -1,0 +1,169 @@
+changeFigure:none;
+intro:Chapter 03|混乱的婚礼 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+;背景图片：小瑶住的酒店房间
+changeBg:bg_hotel001.png -next;
+bgm:need.WAV;
+setTextbox:on -next;
+接亲的酒店房间内:（凌晨三点多）;
+changeFigure:stand_makeup001.png -next;
+;小瑶化妆立绘01
+小瑶:朋友今天就要结婚了;
+一会五点就要去新娘房里拍照|我化妆要两个小时比较慢;
+就没睡|怕因为自己耽误人家的事;
+今天弄完之后让我朋友给我买票|过两天就想走了;
+快过年了，在人家家里待太长时间也不太好|所以想等她结完婚赶紧走;
+setTextbox: hide -next;
+changeFigure:stand_makeup002.png;
+setTextbox:on -next;
+小瑶:（化完妆了，刚好五点）;
+小瑶:伴娘服太显胖了|穿个外套挡一下好了...;
+changeFigure:none -next;
+setTextbox:hide -next;
+changeBg:bg_wedding001.png;
+setTextbox:on -next;
+小瑶:新娘在补妆|我和朋友A在拍照;
+setTextbox:hide -next;
+;展示新娘婚纱背景
+changeBg:bg_weddingdress001.png;
+setTextbox:on -next;
+小瑶:这个婚纱我觉得还挺好看的;
+setTextbox:hide -next;
+;换bgm，换成悬疑、奇怪、怪异、委屈的、孤零零的
+;背景图片：本地姐妹团拍照，小瑶一个人孤零零的
+changeBg:TakePhoto_001.png;
+bgm:sad.WAV -next;
+setTextbox:on -next;
+小瑶:（她们这几个本地姐妹团也在拍|但好像不怎么理我...）;
+setTextbox:hide -next;
+;背景图片，50元伴娘红包
+changeBg:LuckyMoney_001.png;
+setTextbox:on -next;
+小瑶:（新娘发的伴娘红包只有50块...）;
+setTextbox:hide -next;
+;换BGM，换成悬疑的
+changeBg:TakePhoto_001.png;
+setTextbox:on -next;
+接亲的酒店房间内:（该随礼了）;
+playEffect:question01.WAV -next;
+小瑶:随礼红包怎么少了100元！？;
+setTextbox:hide -next;
+;视频，随礼红包少了100元
+playVideo:lost01.mp4 -skipOff -next;
+;背景图片：50元伴娘红包
+;背景图片：接亲的车来了
+changeBg:bg_car001.png
+setTextbox:on -next;
+接亲的车来了|也管不了这么多了...;
+setTextbox:hide -next;
+changeBg:bg_friend001.png;
+;背景图片，本地姐妹团蹲下拿堵门红包
+setTextbox:on -next;
+小瑶:（这几个本地姐妹堵住门）|（红包我和朋友A一个都没拿到...）;
+setTextbox:hide -next;
+;小瑶立绘：赚钱容易吗我（嘟嘴，哼）小变大
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+changeFigure:none -next;
+playVideo:play01.mp4;
+;视频：进门就开始玩游戏了...
+;背景图片：给新娘撑伞
+changeFigure:stand_umbrellar02.png;
+setTextbox:on -next;
+出来还要给新娘撑伞;
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+setTextbox:hide -next;
+changeFigure:none -next;
+;小瑶立绘：赚钱容易吗我（嘟嘴，哼）大变小
+;背景图片：在车上坐新娘后面
+changeBg:bg_oncar001.png;
+setTextbox:on -next;
+一晚上没睡，在车上眯了一会...;
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+setTextbox:hide -next;
+changeFigure:none -next;
+setTextbox:on -next;
+changeBg:bg_nanshou001.png -next;
+这伴娘服穿得太难受了;
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+setTextbox:hide -next;
+changeFigure:none -next;
+;小瑶立绘：赚钱容易吗我（嘟嘴，哼）大变小
+;背景图片，给新娘撑伞
+changeBg:umbrella_001.png;
+setTextbox:on -next;
+下车还要给新娘撑伞|一直撑到家门口;
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:bg_arm001.png -next;
+setTextbox:on -next;
+胳膊都是酸的...;
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+setTextbox:hide -next;
+changeFigure:none -next;
+changeBg:bg_flowerball001.png;
+changeFigure:stand_breakfast001.png -next;
+setTextbox:on -next;
+简单吃了早餐，接了捧花;
+setTextbox:hide -next;
+changeFigure:none -next;
+;背景图片：桌上的菜
+changeBg:bg_table001.png;
+setTextbox:on -next;
+终于等到吃席了...;
+setTextbox:hide -next;
+changeFigure:stand_table001.png;
+;立绘：小瑶吃鲍鱼
+setTextbox:on -next;
+就吃了个鲍鱼，螃蟹只吃了个钳子|就要去敬酒了;
+setTextbox:hide -next;
+changeFigure:none -next;
+;背景图片：上满菜的桌子
+changeBg:bg_table002.png;
+setTextbox:on -next;
+这么多菜|不知道等我回来还没有了;
+setTextbox:hide -next;
+changeFigure:none -next;
+;
+changeBg:bg_candy001.png;
+setTextbox:on -next;
+还要一直拿这个盘子|给人家递喜糖喜饼...;
+……|（敬了一圈酒回来）;
+setTextbox:hide -next;
+changeFigure:none -next;
+;背景图片：从楼上窗户往下看
+changeBg:bg_table003.png;
+setTextbox:on -next;
+人家都吃得差不多了...;
+setTextbox:hide -next;
+changeBg:bg_window001.png;
+setTextbox:on -next;
+小瑶:我还是上楼休息吧...;
+changeFigure:stand_angry002.png -enter=move-front-and-back;
+setTextbox:hide -next;
+changeFigure:none -next;
+;立绘：小瑶生气
+changeBg:none -next;
+setTextbox:on -next;
+小瑶:（睡着了...）;
+setTextbox:hide -next;
+changeBg:bg_wakeup002.png;
+setTextbox:on -next;
+回楼上眯了一会就饿了;
+把伴娘服换下来了;
+setTextbox:hide -next;
+changeBg:bg_table004.png;
+setTextbox:on -next;
+下楼一看吃的还挺多
+setTextbox:hide -next;
+changeFigure:stand_eat001.png -enter=enter-from-left;
+changeFigure:stand_eat002.png -enter=enter-from-enter-from-right;
+changeFigure:stand_eat003.png -enter=enter-from-bottom;
+;立绘：小瑶吃鲍鱼，吃肋骨，吃菠萝咕咾肉|吃豉油鸡，喝橙汁，吃烧猪皮
+;背景图片：在树下的吊床
+playVideo:hammock.mp4 -skipOff;
+setTextbox:on -next;
+小瑶:晚上没吃饭，在外面躺了一会;
+setTextbox:hide -next;
+intro:真舒服啊~ -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold;
+bgm:none;
+changeScene:Chapter_04.txt;

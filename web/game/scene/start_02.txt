@@ -1,0 +1,24 @@
+bgm:none;
+intro:Branch 01|趋利避害 -fontSize=large -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500 -hold -userForwarnext=true;
+;新娘视角，小瑶超过分
+bgm:elegant.WAV -next;
+changeFigure:none -next;
+changeBg:bg_04.png -next;
+setTextbox:on -next;
+:（新娘和小瑶通话中...）
+changeFigure:stand_bride_call_L01.png -left -next;
+新娘:小瑶，你最近有空吗？|我下个月要结婚了，你想不想来湛江玩？;
+changeFigure:stand_call01.png -right -transform={"position":{"x":-354}} -next;
+小瑶:湛江很远耶|姐你请我去吗？;
+新娘:你想来的话我可以给你报销来回火车票呀~|顺便来给我当伴娘嘛！~;
+到时候来我家吃个便饭呀。;
+小瑶:行啊姐，那到时候见吧！;
+新娘:太好了小瑶|到时候见！;
+changeBg:bg_04.png -next;
+changeFigure:none -left -next;
+changeFigure:none -right -next;
+changeFigure:stand_03.png -next;
+小瑶:怎么办，要不要去呢？;
+choose:不去白不去啊！:Branch_01.txt|其实也不太熟，不去了吧...:end_01.txt;
+label:end02; // 创建名为 end 的 label
+jumpLabel:end02;
